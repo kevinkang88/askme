@@ -4,6 +4,7 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 
+gem 'bcrypt-ruby'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

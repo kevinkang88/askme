@@ -1,0 +1,10 @@
+<div id="signUpForm">
+  <%= form_for :user, url: {action:"create"} do |user_form| %>
+    <%= user_form.text_field :screen_name , :placeholder => "screen name"%>
+    <%= user_form.text_field :password , :placeholder => "password"%>
+    <%= user_form.text_field :first_name , :placeholder => "first name"%>
+    <%= user_form.text_field :last_name , :placeholder => "last name"%>
+    <%= user_form.text_field :email , :placeholder => "email"%>
+    <%= user_form.submit %>
+  <% end %>
+</div>
